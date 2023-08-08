@@ -7,9 +7,13 @@
 body {
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     color: #fff;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .app {
@@ -25,8 +29,8 @@ body {
 .form-app {
     height: 450px;
     border: 1px solid rgb(71, 158, 147);
-    backdrop-filter: blur(12.5px);
-    -webkit-backdrop-filter: blur(12.5px);
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo preto com transparência */
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
     padding: 20px;
     border-radius: 10px;
     margin: 0 10px 0 10px;
