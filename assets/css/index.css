@@ -137,17 +137,3 @@ a {
     margin-top: 20px;
     font-size: 18px;
 }
-
-/* Responsive Layout */
-@media (max-width: 595px)
-{
-    
-    .form-app {
-        margin: 10%;
-    }
-
-    .form-input {
-        width: 75%;
-    }
-
-}
