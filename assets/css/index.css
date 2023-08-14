@@ -141,11 +141,10 @@ a {
 /* Responsive Layout */
 @media (max-width: 595px)
 {
-    
     .form-app {
         margin: 0px 0px;
         width: 400px;
-        margin-left: 50px;
+        margin: auto;
     }
 
     .form-input {
